@@ -5,14 +5,14 @@ import datetime as dt
 def welcome(request):
     return HttpResponse('Beauty is an Expression')
 
-def images_of_day(request):
+def gallery_of_day(request):
     date = dt.date.today()
      # FUNCTION TO CONVERT DATE OBJECT TO FIND EXACT DAY
     day = convert_dates(date)
     html = f'''
         <html>
             <body>
-                <h1>Images for {day} {date.day}-{date.month}-{date.year}</h1>
+                <h1>Gallery for {day} {date.day}-{date.month}-{date.year}</h1>
             </body>
         </html>
             '''
