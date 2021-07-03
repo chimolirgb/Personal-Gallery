@@ -28,3 +28,4 @@ class Category(models.Model):
     #     cate=Category.objects.filter(id=id)
     #     cate.update(category=name)
     #     return cate
+
