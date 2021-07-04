@@ -1,5 +1,4 @@
-{% load bootstrap3 %}
-{% load static%}
+{% load bootstrap4 %}
 <!DOCTYPE html>
 <html>
 
@@ -14,13 +13,13 @@
 
     {% block styles %}
     {% bootstrap_css %}
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
     {% endblock %}
 </head>
 
 <body>
-        {% include "navbar.html" %}
-    {% block content %} 
+    {% include 'all_images/navbar.html' %}
+    {% block content %}
+     
     <div class="container">
         <div class="jumbutron">
             <h1 style="text-align: center; font-family: 'Great Vibes', cursive;font-size: 50px; color: black;"class='text-center'>La Galería</h1>
