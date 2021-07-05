@@ -4,7 +4,7 @@
 Lucy Chimoli
 
 ## Screenshot
-
+/home/moringa/Documents/Gallery/pictures/pics/Screenshot from 2021-07-05 10-21-28.png
 ### Description
 The project is about developing a personal gallery application that you display your photos for others to see.
 
