@@ -10,23 +10,25 @@ The project is about developing a personal gallery application that you display 
 
 ## Prerequisites
 
-  1.Git
-  2.Python: 3.8.5 versions
-  3.Django: 3.2.5 or greater version
-  4.Have Internet connection
-  5.Virtual Environment
-  6.Gunicorn
-  7.Chrome Browser
+  Git
+  Python: 3.8.5 versions
+  Django: 3.2.5 or greater version
+  Have Internet connection
+  Virtual Environment
+  Gunicorn
+  Chrome Browser
 
   ### Installations
 
-> Install Django Framework '''$pip install django==3.2.5'''
-> Install Python Version --3.8.5
-> Install gunicorn in (virtual) -python3.8 -m pip install gunicorn
-> Install the Heroku Cli
-> $ git clone https://github.com/chimolirgb/Personal-Gallery
-> $ Python3.8 -m venv Virtual
-> $ Source virtual/bin/activate
+ Install Django Framework '''$pip install django==3.2.5'''
+
+ Install Python Version --3.8.5
+
+ Install gunicorn in (virtual) -python3.8 -m pip install gunicorn
+ Install the Heroku Cli
+ $ git clone https://github.com/chimolirgb/Personal-Gallery
+ $ Python3.8 -m venv Virtual
+ $ Source virtual/bin/activate
 
 ### Running tests
 def test_save_method(self):
